@@ -249,7 +249,7 @@ body {
             var divElement = document.getElementById('vizDailyEscalation');
             var vizElement = divElement.getElementsByTagName('object')[0];
             vizElement.style.width = '100%';
-            var scriptElement = document.createElement('script');
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
