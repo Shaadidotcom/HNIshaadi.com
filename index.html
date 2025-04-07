@@ -159,9 +159,8 @@ body {
             
             <!-- Tabs in the center -->
             <div class="tabs-container">
-                <div class="tab active" onclick="openReport(event, 'report1')">Monthly Report</div>
-                <div class="tab" onclick="openReport(event, 'report2')">Weekly Report</div>
-                <div class="tab" onclick="openReport(event, 'report3')">Daily Report</div>
+
+                <div class="tab" onclick="openReport(event, 'report3')">Daily Metrics Report</div>
                 <div class="tab" onclick="openReport(event, 'report4')">Team-Wise Report</div>
             </div>
             
@@ -169,88 +168,33 @@ body {
             <img src="Shaadi_Logo.png" alt="Shaadi Logo Right" class="logo logo-right">
         </div>
 
-        <!-- First Tableau Report (Report 1) -->
-        <div class="report-container active" id="report1">    
-            <div class='tableauPlaceholder' id='viz1736255013996' style='position: relative'>
-                <noscript>
-                    <a href='#'>
-                        <img alt='L1 ' src='https://public.tableau.com/static/images/Pe/PersonalisedMonthly/L1/1_rss.png' style='border: none' />
-                    </a>
-                </noscript>
-                <object class='tableauViz' style='display:none;'>
-                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                    <param name='embed_code_version' value='3' />
-                    <param name='site_root' value='' />
-                    <param name='name' value='PersonalisedMonthly/L1' />
-                    <param name='tabs' value='no' />
-                    <param name='toolbar' value='yes' />
-                    <param name='static_image' value='https://public.tableau.com/static/images/Pe/PersonalisedMonthly/L1/1.png' />
-                    <param name='animate_transition' value='yes' />
-                    <param name='display_static_image' value='yes' />
-                    <param name='display_spinner' value='yes' />
-                    <param name='display_overlay' value='yes' />
-                    <param name='display_count' value='yes' />
-                    <param name='language' value='en-US' />
-                    <param name='filter' value='publish=yes' />
-                    <param name='ignore_sticky_session' value='yes' />
-                </object>
-                <div class="overlay"></div> <!-- Overlay div -->
-            </div>
-        </div>
-
-        <!-- Second Tableau Report (Report 2) -->
-        <div class="report-container active" id="report2">	
-            <div class="tableauPlaceholder" id="viz1736256566616" style="position: relative">
-                <noscript>
-                  <a href="#">
-                    <img alt="L1" src="https://public.tableau.com/static/images/Pe/PersonalisedWeekly/L1/1_rss.png" style="border: none" />
-                  </a>
-                </noscript>
-                <object class="tableauViz" style="display: none;">
-                  <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
-                  <param name="embed_code_version" value="3" />
-                  <param name="site_root" value="" />
-                  <param name="name" value="PersonalisedWeekly/L1" />
-                  <param name="tabs" value="no" />
-                  <param name="toolbar" value="yes" />
-                  <param name="static_image" value="https://public.tableau.com/static/images/Pe/PersonalisedWeekly/L1/1.png" />
-                  <param name="animate_transition" value="yes" />
-                  <param name="display_static_image" value="yes" />
-                  <param name="display_spinner" value="yes" />
-                  <param name="display_overlay" value="yes" />
-                  <param name="display_count" value="yes" />
-                  <param name="language" value="en-US" />
-                  <param name="filter" value="publish=yes" />
-                  <param name="ignore_sticky_session" value="yes" />
-                </object>
-                <div class="overlay"></div> <!-- Overlay div -->
-            </div>
-        </div>
             
             <!-- Third Tableau Report (Report 3) -->
             <div class="report-container active" id="report3">	
-                <div class='tableauPlaceholder' id='viz1736255410731' style='position: relative'>
+                <div class="tableauPlaceholder" id="vizDailyEscalation" style="position: relative;">
                     <noscript>
-                        <a href='#'> <img alt='Daily L1 HNI' src='https://public.tableau.com/static/images/Pe/PersonalisedDaily/DailyL1HNI/1_rss.png' style='border: none' />
-                        </a>
+                      <a href="#">
+                        <img alt="Daily Escalation Metrics" 
+                             src="https://public.tableau.com/static/images/Da/DailyEsacalationMetrics/Story1/1_rss.png" 
+                             style="border: none" />
+                      </a>
                     </noscript>
-                    <object class='tableauViz' style='display: none;'>
-                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                        <param name='embed_code_version' value='3' />
-                        <param name='site_root' value='' />
-                        <param name='name' value='PersonalisedDaily/DailyL1HNI' />
-                        <param name='tabs' value='no' />
-                        <param name='toolbar' value='yes' />
-                        <param name='static_image' 
-                               value='https://public.tableau.com/static/images/Pe/PersonalisedDaily/DailyL1HNI/1.png' />
-                        <param name='animate_transition' value='yes' />
-                        <param name='display_static_image' value='yes' />
-                        <param name='display_spinner' value='yes' />
-                        <param name='display_overlay' value='yes' />
-                        <param name='display_count' value='yes' />
-                        <param name='language' value='en-US' />
-                        <param name='filter' value='publish=yes' />
-                        <param name='ignore_sticky_session' value='yes' />
+                    <object class="tableauViz" style="display: none;">
+                      <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                      <param name="embed_code_version" value="3" />
+                      <param name="site_root" value="" />
+                      <param name="name" value="DailyEsacalationMetrics/Story1" />
+                      <param name="tabs" value="no" />
+                      <param name="toolbar" value="yes" />
+                      <param name="static_image" 
+                             value="https://public.tableau.com/static/images/Da/DailyEsacalationMetrics/Story1/1.png" />
+                      <param name="animate_transition" value="yes" />
+                      <param name="display_static_image" value="yes" />
+                      <param name="display_spinner" value="yes" />
+                      <param name="display_overlay" value="yes" />
+                      <param name="display_count" value="yes" />
+                      <param name="language" value="en-US" />
+                      <param name="filter" value="publish=yes" />
                     </object>
                     <div class="overlay"></div> <!-- Overlay div -->
                 </div>
@@ -286,26 +230,26 @@ body {
             
 
         <script type='text/javascript'>
-            var divElement = document.getElementById('viz1736255013996');
-            var vizElement = divElement.getElementsByTagName('object')[0];
-            vizElement.style.width='100%';
-            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';  
-            var scriptElement = document.createElement('script');
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);  
+            // var divElement = document.getElementById('viz1736255013996');
+            // var vizElement = divElement.getElementsByTagName('object')[0];
+            // vizElement.style.width='100%';
+            // vizElement.style.height=(divElement.offsetWidth*0.75)+'px';  
+            // var scriptElement = document.createElement('script');
+            // scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            // vizElement.parentNode.insertBefore(scriptElement, vizElement);  
             
-            var divElement = document.getElementById('viz1736256566616');
-            var vizElement = divElement.getElementsByTagName('object')[0];
-            vizElement.style.width='100%';
-            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';  
-            var scriptElement = document.createElement('script');
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            // var divElement = document.getElementById('viz1736256566616');
+            // var vizElement = divElement.getElementsByTagName('object')[0];
+            // vizElement.style.width='100%';
+            // vizElement.style.height=(divElement.offsetWidth*0.75)+'px';  
+            // var scriptElement = document.createElement('script');
+            // scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            // vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
-            var divElement = document.getElementById('viz1736255410731');
+            var divElement = document.getElementById('vizDailyEscalation');
             var vizElement = divElement.getElementsByTagName('object')[0];
-            vizElement.style.width='100%';
-            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';  
+            vizElement.style.width = '1657px';
+            vizElement.style.height = '902px';
             var scriptElement = document.createElement('script');
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
